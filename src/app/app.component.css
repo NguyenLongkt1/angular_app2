@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main_element{
+  display: grid;
+  grid-template-columns: 7% 93%;
+  background-color: rgb(204, 202, 202);
+}
+router-outlet{
+  display: none;
+}

@@ -1,0 +1,44 @@
+<div class="wrap_outside">
+  <div class="wrap">
+    <div class="character_info">
+      <div class="image_and_basic_info">
+        <img src="{{cdata.thumbnail}}" alt="thumbnail" (click)="testData()"/>
+        <h3>{{cdata.name}}</h3>
+      </div>
+
+      <div class="detail_info">
+        <div class="bound_form">
+          <div class="total_power">
+            <h3>Total character power</h3>
+            <span>10792</span>
+          </div>
+
+          <div class="char_index">
+            <div class="title">
+              <h3>HP</h3>
+              <h3>ATK</h3>
+              <h3>DEF</h3>
+              <h3>CRT</h3>
+            </div>
+
+            <div class="index_info">
+              <h3>{{cdata.hp}}</h3>
+              <h3>{{cdata.atk}}</h3>
+              <h3>{{cdata.def}}</h3>
+              <h3>{{cdata.crit}}</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills">
+          <div class="skill1">
+            {{cdata.skill1}}
+          </div>
+          <div class="skill2">
+            {{cdata.skill2}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

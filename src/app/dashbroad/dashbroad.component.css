@@ -1,0 +1,40 @@
+.wrap_outside{
+  width: 100%;
+  min-height: 650px;
+  background-color: rgb(189, 187, 187);
+}
+.wrap{
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 20px;
+}
+.p_info{
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  min-height: 350px;
+}
+.p_info:hover{
+  transform: scale(1.05);
+}
+.p_info h3{
+  font-size: 26px;
+  font-family: 'Tourney';
+  font-style: italic;
+  color: red;
+  text-align: center;
+}
+.p_info img{
+  width: 90%;
+  height: 100%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.info_element{
+  vertical-align: middle;
+}

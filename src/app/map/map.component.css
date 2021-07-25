@@ -1,0 +1,33 @@
+.wrap_outside{
+  width: 100%;
+  background-color: rgb(189, 187, 187);
+}
+.wrap{
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  grid-gap: 15px;
+}
+.p_info{
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.p_info img{
+  width: 60%;
+  height: 60%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.p_info h3{
+  font-size: 26px;
+  color: orange;
+  font-family: Tourney;
+  font-style: italic;
+  text-align: center;
+}
+.info_element{
+  vertical-align: middle;
+}

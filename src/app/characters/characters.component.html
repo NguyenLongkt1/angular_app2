@@ -1,0 +1,10 @@
+<div class="wrap_outside">
+  <div class="wrap">
+    <div class="p_info" *ngFor="let character of characters" (click)="viewDetail('character-detail?id='+character.id)">
+      <h3>{{character.name}}</h3>
+      <div class="info_element">
+        <img src="{{character.thumbnail}}" alt="info"/>
+      </div>
+    </div>
+  </div>
+</div>

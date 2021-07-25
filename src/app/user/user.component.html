@@ -1,0 +1,40 @@
+<div class="wrap_outside">
+  <div class="wrap">
+    <div class="columns avatar">
+      <div class="avatar_pic">
+        <img src="https://i.pinimg.com/originals/8c/6e/57/8c6e574b7ff2eff33b6539fb5fba0b53.png" alt="avatar" />
+      </div>
+
+      <div class="something_fun">
+        <ul>
+          <li>Favorite</li>
+          <li>Post</li>
+          <li>Photos</li>
+        </ul>
+      </div>
+    </div>
+
+    <div clas="columns info" style="background-color: #fff;border-radius: 5px;margin: 50px 0;">
+      <table style="position: relative;
+                    top: 30%;
+                    left: 50%;
+                    transform: translateX(-50%);">
+        <thead>
+          <tr>
+            <th>Full Name</th>
+            <th>Account Name</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>{{user.fullname}}</td>
+            <td>{{user.username}}</td>
+            <td>{{user.email}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+.menu{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+a{
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.menu img{
+  width: 40px;
+  height: 40px;
+}
+ul li{
+  list-style: none;
+  display: block;
+  width: 100%;
+  height: 40px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+li:hover,li::selection{
+  background-image: linear-gradient(to right,rgb(63, 134, 111),rgb(105, 215, 219),rgb(87, 144, 219));
+  color: red;
+}

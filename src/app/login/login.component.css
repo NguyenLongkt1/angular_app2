@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+input{
+  outline: none;
+}
+input[type="checkbox"]{
+  margin-right: 5px;
+}
+.star_sign{
+  color: red;
+}
+.wrap_container{
+  width: 100%;
+  height: 650px;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  background-image: url(https://blog.cloudware.bg/wp-content/uploads/2018/05/iot_1.jpg);
+  background-repeat: no-repeat;
+}
+.login_form{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px 0;
+}
+.login_form form{
+  width: 100%;
+}
+.form_name,.form_body{
+  width: 80%;
+  margin: 0 auto;
+}
+.component_wrap{
+  padding: 30px 0;
+}
+.form_body{
+  margin-top: 10px;
+  border: 1px solid rgb(199, 198, 198);
+  border-radius: 3px;
+}
+.form_body > div{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.input_obj_area,.capcha_area,.recapcha,.forgot_pass,.remember_user{
+  width: 80%;
+  margin: 0 auto;
+}
+.input_obj_area h5{
+  padding: 7px 0;
+}
+.input_input{
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  height: 35px;
+  border: 1px solid rgb(150, 149, 149);
+  padding-left: 5px;
+  box-sizing: border-box;
+}
+
+.forgot_pass{
+  width: 100px;
+  margin-right: 10%;
+}
+.capcha_area{
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  align-items: center;
+  background-color: rgba(244, 244, 244,1);
+  border-radius: 3px;
+  justify-items: center;
+  margin-bottom: 10px;
+}
+.btnsubmit{
+  color: #fff;
+  background-image: linear-gradient(to right,rgb(63, 134, 111),rgb(105, 215, 219),rgb(87, 144, 219));
+}
+.btnsubmit:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+.recapcha img{
+  width: 40px;
+  height: 36px;
+}
+.remember_user{
+  padding: 7px 0;
+}

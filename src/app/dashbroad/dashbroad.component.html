@@ -1,0 +1,10 @@
+<div class="wrap_outside">
+  <div class="wrap">
+    <div class="p_info" *ngFor="let item of category" (click)="redirectToPage(item.cid)">
+      <h3>{{item.name}}</h3>
+      <div class="info_element">
+        <img src="{{item.thumbnail}}" alt="info"/>
+      </div>
+    </div>
+  </div>
+</div>
